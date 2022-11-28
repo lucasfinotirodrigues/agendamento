@@ -11,5 +11,12 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  title = 'primeiro_projeto';
+
+  mostrarsenha = false
+
+  mostrar(){
+    this.mostrarsenha  = !this.mostrarsenha
+  }
 
 }
