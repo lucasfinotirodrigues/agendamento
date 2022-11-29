@@ -8,15 +8,15 @@
     <hr>
     <ul class="lists">
       <li class="list">
-        <a routerLink="/solicitar" class="nav-link">
-          <img src="../../message-circle (1).svg"  class="icon">
+        <a [routerLink]="['/solicitar']" class="nav-link">
+          <img src="../../assets/Vector.png"  class="icon">
           <span class="link">Solicitar Espaço</span>
         </a>
       </li>
 
       <li class="list">
-        <a class="nav-link">
-          <img src="../solicitar/assets/Vector.svg"  class="icon">
+        <a [routerLink]="['/visualizar']" class="nav-link">
+          <img src="../../assets/calendar-clear-outline.png"  class="icon">
           <span class="material-symbols-outlined">
            
             </span>
@@ -28,7 +28,7 @@
     <div class="outside">
       <li class="list">
       <a routerLink="/" class="nav-link">
-        <img src="../../../src/assets/calendar-clear-outline.png  "  class="icon">
+        <img src="../../assets/log-out.png"  class="icon">
           <span class="link">Sair</span>
         </a>
       </li>
@@ -86,8 +86,9 @@
   <button>Enviar</button>
   </div>
 
-    
-   <footer>
+
+
+  <footer>
     <hr class="line">
     <div class="rodape">
     

@@ -9,20 +9,29 @@
       <ul class="lists">
         <li class="list">
           <a [routerLink]="['/solicitar']" class="nav-link">
-            <img src="../../assets/Vector.png"  class="icon">
-            <span class="link">Solicitar Espaço</span>
+            <img src="../../assets/clock.png"  class="icon">
+            <span class="link">Solicitações</span>
           </a>
         </li>
 
         <li class="list">
           <a [routerLink]="['/visualizar']" class="nav-link">
-            <img src="../../assets/calendar-clear-outline.png" class="icon">
-            <span class="material-symbols-outlined">
-             
-              </span>
-          <span class="link">Visualizar Solicitação</span>
+            <img src="../../assets/edit.png" class="icon">
+          <span class="link">Solicitantes</span>
           </a>
         </li>
+        <li class="list">
+            <a [routerLink]="['/solicitar']" class="nav-link">
+              <img src="../../assets/user.png"  class="icon">
+              <span class="link">Perfis</span>
+            </a>
+          </li>
+          <li class="list">
+            <a [routerLink]="['/solicitar']" class="nav-link">
+              <img src="../../assets/home.png"  class="icon">
+              <span class="link">Espaços</span>
+            </a>
+          </li>
       </ul>
 
       <div class="outside">
@@ -58,6 +67,9 @@
             <th>Data</th>
             <th>Horário</th>
             <th>Local</th>
+            <th>Ações</th>
+            <th>Status</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -65,6 +77,8 @@
             <td>10/12/2022</td>
             <td>08:00</td>
             <td>Museu</td>
+            <a><td>Aceitar ou negar</td></a>
+            <td>Aguardando Aprovação</td>
           </tr>
           <tr class="active-row">
             <td>15/12/2022</td>
