@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
 
   mostrarsenha = false
 
-  mostrar(){
+  visibilidadesenha(){
     this.mostrarsenha  = !this.mostrarsenha
   }
 
