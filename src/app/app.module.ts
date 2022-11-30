@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { SolicitarComponent } from './solicitar/solicitar.component';
 import { VisualizarComponent } from './visualizar/visualizar.component';
 import { SolicitacoesComponent } from './solicitacoes/solicitacoes.component';
+import { SolicitantesComponent } from './solicitantes/solicitantes.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SolicitacoesComponent } from './solicitacoes/solicitacoes.component';
     LoginComponent,
     SolicitarComponent,
     VisualizarComponent,
-    SolicitacoesComponent
+    SolicitacoesComponent,
+    SolicitantesComponent
   ],
   imports: [
     BrowserModule,

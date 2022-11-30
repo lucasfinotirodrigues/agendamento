@@ -96,7 +96,6 @@ h2{
     /*Estilização de títulos 'H2'*/
     color:var(--gray-color-scale1);
     font-weight: 700;
-    text-transform: capitalize;
     font-size: 18px; 
 
 }
@@ -114,3 +113,13 @@ h2{
     color: #33303E;
   }
   
+//Estilização da tabela
+
+td,th{
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  td{
+    color: var(--gray-color-scale1);
+    text-transform: initial;
+  }
