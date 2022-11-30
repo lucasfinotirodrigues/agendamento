@@ -12,7 +12,10 @@ import { PerfisComponent } from './perfis/perfis.component';
 import { PerfisNovoComponent } from './perfis-novo/perfis-novo.component';
 import { EspacosComponent } from './espacos/espacos.component';
 import { EspacosNovoComponent } from './espacos-novo/espacos-novo.component';
-
+import { RouteReuseStrategy } from '@angular/router';
+import { FormBuilder } from '@angular/forms';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { Modal1Component } from './modal1/modal1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,13 +28,15 @@ import { EspacosNovoComponent } from './espacos-novo/espacos-novo.component';
     PerfisComponent,
     PerfisNovoComponent,
     EspacosComponent,
-    EspacosNovoComponent
+    EspacosNovoComponent,
+    Modal1Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IonicModule.forRoot(),
   ],
-  providers: [],
+  providers: [{provide: RouteReuseStrategy, useClass: IonicRouteStrategy}, FormBuilder],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

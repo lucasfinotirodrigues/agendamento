@@ -122,4 +122,20 @@ td,th{
   td{
     color: var(--gray-color-scale1);
     text-transform: initial;
+   
   }
+
+
+ion-modal{
+    &.modal1{
+        --width: 930px;
+        --height:223px ;
+        --border-radius: 32px;
+        .num1{
+            color:var(--gray-color-scale1);
+            font-weight: 700;
+            font-size: 18px; 
+          
+        }
+        }
+    }

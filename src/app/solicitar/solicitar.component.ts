@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalController} from '@ionic/angular';
+import { Modal1Component } from '../modal1/modal1.component';
 
 @Component({
   selector: 'app-solicitar',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolicitarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modalcontroler:ModalController) { }
 
-  ngOnInit(): void {
+  async openModal1(){
+    const modal = await this.modalcontroler.create({
+      component: Modal1Component, 
+      cssClass: 'modal1'
+    });
+    await modal.present();
+    const res = await modal.onDidDismiss();
+  }
+    ngOnInit(): void {
   }
 
 }
