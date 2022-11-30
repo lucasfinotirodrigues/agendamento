@@ -153,7 +153,7 @@ select{
 }
 #description{
   width: 904px;
-  height: 136px;
+  height: 116px;
   text-align: left; padding: 0px 25px 80px;
   border-radius: 50px;
 }
@@ -162,8 +162,9 @@ select{
 
 display: flex;
 flex-direction:row-reverse;
-margin-bottom: 40px;
+margin-bottom: 250px;
 }
+
 
 .line{
   padding: 0;
@@ -172,16 +173,14 @@ margin-bottom: 40px;
   width: 107%;
   color:#d3d3d3;
  }
-footer{
-  height: 20px;
-}
  //Estilização do rodapé
+//Estilização do rodapé
 .rodape{
   display: flex;
   flex-direction: row;
   justify-content:space-around;
-  padding-top: 20px;}
-  
+  padding-top: 20px;
+}
 .logo_fsnt{
 width: 190px;
 padding-bottom: -20px;
@@ -190,61 +189,3 @@ padding-bottom: -20px;
 .subtitulo, .num1 , .num2{
   margin-top: 22px;
 }
-
-
-//Css Table
-
-.table{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 250px;
-    margin-left: 40px;
-}
-
-.content-table {
-    
-    border-collapse: collapse;
-    margin:      0;
-    font-size: 0.9em;
-    width: 930px;
-    border-radius: 25px 25px 0 0;
-    overflow: hidden;
-}
-
-.content-table thead tr {
-    background-color: var(--color-primary);
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold;}
-    
-
-.content-table th,
-.content-table td {
-    padding: 12px 15px;
-}
-
-.content-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-
-
-
-td,th{
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-  td{
-    color: var(--gray-color-scale1);
-    text-transform: initial;
-  }
-  .cabecalho{
-    display: flex;
-    flex-direction: row;
-  }
-  .cadastro_novo{
-    margin-left: 390px;
-    margin-top: 60px;
-    text-transform: capitalize;
-  }

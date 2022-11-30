@@ -51,56 +51,49 @@
     
     <div class="form">
       <!--Ínicio do header-->
-      <div class="cabecalho">
         <div class="titulo">
-          <h2>Olá, Administrador(a) </h2>
-          <h3 class="solicitante">Solicitantes Cadastrados</h3>
-          
+          <h2>Olá, Solicitante.</h2>
+          <h3 class="solicitante">Solicite aqui o espaço que precisa</h3>
         </div>
-        <a [routerLink]="['/solicitante-novo']"><button class="cadastro_novo">cadastrar</button></a>
-       
-      </div>
-
-
-      <!--Início da tabela-->
-      
-
-      <div class="table">
-      <table class="content-table">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Empresa</th>
-            <th>Número</th>
-            <th>Ações</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Maria Pereira</td>
-            <td>Jacto Clean</td>
-            <td>(14) 99777-7777</td>
-            <td>Deletar</td>
-          </tr>
-          <tr class="active-row">
-            <td>João Da Silva</td>
-            <td>Jacto</td>
-            <td>(14) 99999-9999</td>
-            <td>Deletar</td>
-          </tr>
-          <tr>
-            <td>José Santos</td>
-            <td>Brudden</td>
-            <td>(14) 99888-8888</td>
-            <td>Deletar</td>
-          </tr>
+  
+  
+      <!--Início dos inputs-->
+      <div class="campo-cadastro">
+        
+              
+          <input type="text" placeholder="Nome Completo" class="input">
+          <input type="tel" placeholder="Telefone" class="input">
+        
           
-        </tbody>
-      </table>
-    </div>
-
+      </div>
+  
+      <div class="campo-cadastro">
+        
+     
+        <input type="text" placeholder="Empresa" class="input">
+        <input type="text" placeholder="Cargo" class="input">
       
-     <footer>
+        
+          
+      </div>
+  
+      <div class="campo-cadastro">
+        
+       
+        <input type="text" placeholder="E-mail " class="input">
+        <input type="text" placeholder="Senha " class="input">
+        
+      
+        
+    </div>
+    
+    <div class="botao">
+    <button>Cadastrar</button>
+    </div>
+  
+  
+  
+    <footer>
       <hr class="line">
       <div class="rodape">
       
@@ -117,6 +110,7 @@
           
         
     </div>
-
+  
    
-</div>
+  </div>
+  
