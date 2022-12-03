@@ -171,4 +171,49 @@ ion-modal{
                       
                     }
                     }
+                     &.modal4{
+                    --width: 930px;
+                    --height:223px ;
+                    --border-radius: 32px;
+                    .num1{
+                        color:var(--gray-color-scale1);
+                        font-weight: 700;
+                        font-size: 18px; 
+                      
+                    }
+                    }
+                    &.modal_aceitar{
+                        --width: 500px;
+                        --height:490px ;
+                        --border-radius: 24px;
+                        .num1{
+                            color:var(--gray-color-scale1);
+                            font-weight: 700;
+                            font-size: 18px; 
+                          
+                        }
+                        }
+                      &.modal_deletar{
+                        --width: 500px;
+                        --height:400px ;
+                        --border-radius: 24px;
+                        .num1{
+                            color:var(--gray-color-scale1);
+                            font-weight: 700;
+                            font-size: 18px; 
+                          
+                        }
+                        }
+                        &.modal_deletar_espaco  {
+                            --width: 500px;
+                            --height:300px ;
+                            --border-radius: 24px;
+                            .num1{
+                                color:var(--gray-color-scale1);
+                                font-weight: 700;
+                                font-size: 18px; 
+                              
+                            }
+                            }
     }
+    

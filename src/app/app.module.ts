@@ -19,6 +19,9 @@ import { Modal1Component } from './modal1/modal1.component';
 import { Modal2Component } from './modal2/modal2.component';
 import { Modal3Component } from './modal3/modal3.component';
 import { Modal4Component } from './modal4/modal4.component';
+import { ModalAceitarComponent } from './modal-aceitar/modal-aceitar.component';
+import { ModalDeletarComponent } from './modal-deletar/modal-deletar.component';
+import { ModalDeletarEspacoComponent } from './modal-deletar-espaco/modal-deletar-espaco.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +38,10 @@ import { Modal4Component } from './modal4/modal4.component';
     Modal1Component,
     Modal2Component,
     Modal3Component,
-    Modal4Component
+    Modal4Component,
+    ModalAceitarComponent,
+    ModalDeletarComponent,
+    ModalDeletarEspacoComponent
   ],
   imports: [
     BrowserModule,
