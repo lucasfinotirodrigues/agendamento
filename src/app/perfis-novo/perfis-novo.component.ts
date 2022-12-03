@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalController } from '@ionic/angular';
+import { Modal3Component } from '../modal3/modal3.component';
 
 @Component({
   selector: 'app-perfis-novo',
@@ -7,7 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfisNovoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modalcontroler:ModalController) { }
+  async openModal3(){
+    const modal = await this.modalcontroler.create({
+      component: Modal3Component,
+      cssClass: 'modal3'
+    });
+    await modal.present();
+    const res = await modal.onDidDismiss();
+  }
 
   ngOnInit(): void {
   }

@@ -20,6 +20,6 @@ export class SolicitarComponent implements OnInit {
     const res = await modal.onDidDismiss();
   }
     ngOnInit(): void {
-  }
+  } 
 
 }

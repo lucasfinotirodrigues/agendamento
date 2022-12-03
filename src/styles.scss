@@ -138,4 +138,37 @@ ion-modal{
           
         }
         }
+        &.modal2{
+            --width: 930px;
+            --height:223px ;
+            --border-radius: 32px;
+            .num1{
+                color:var(--gray-color-scale1);
+                font-weight: 700;
+                font-size: 18px; 
+              
+            }
+            }
+            &.modal3{
+                --width: 930px;
+                --height:223px ;
+                --border-radius: 32px;
+                .num1{
+                    color:var(--gray-color-scale1);
+                    font-weight: 700;
+                    font-size: 18px; 
+                  
+                }
+                }
+                &.modal4{
+                    --width: 930px;
+                    --height:223px ;
+                    --border-radius: 32px;
+                    .num1{
+                        color:var(--gray-color-scale1);
+                        font-weight: 700;
+                        font-size: 18px; 
+                      
+                    }
+                    }
     }

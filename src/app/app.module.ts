@@ -16,6 +16,9 @@ import { RouteReuseStrategy } from '@angular/router';
 import { FormBuilder } from '@angular/forms';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { Modal1Component } from './modal1/modal1.component';
+import { Modal2Component } from './modal2/modal2.component';
+import { Modal3Component } from './modal3/modal3.component';
+import { Modal4Component } from './modal4/modal4.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +32,10 @@ import { Modal1Component } from './modal1/modal1.component';
     PerfisNovoComponent,
     EspacosComponent,
     EspacosNovoComponent,
-    Modal1Component
+    Modal1Component,
+    Modal2Component,
+    Modal3Component,
+    Modal4Component
   ],
   imports: [
     BrowserModule,
