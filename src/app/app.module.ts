@@ -22,6 +22,7 @@ import { Modal4Component } from './modal4/modal4.component';
 import { ModalAceitarComponent } from './modal-aceitar/modal-aceitar.component';
 import { ModalDeletarComponent } from './modal-deletar/modal-deletar.component';
 import { ModalDeletarEspacoComponent } from './modal-deletar-espaco/modal-deletar-espaco.component';
+import { SolicitacoesConfirmadasComponent } from './solicitacoes-confirmadas/solicitacoes-confirmadas.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +42,8 @@ import { ModalDeletarEspacoComponent } from './modal-deletar-espaco/modal-deleta
     Modal4Component,
     ModalAceitarComponent,
     ModalDeletarComponent,
-    ModalDeletarEspacoComponent
+    ModalDeletarEspacoComponent,
+    SolicitacoesConfirmadasComponent
   ],
   imports: [
     BrowserModule,

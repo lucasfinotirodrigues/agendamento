@@ -27,7 +27,7 @@
   width: 340px;
   margin-top: -15px;
   padding: 20px;
-  padding-bottom: 720px;
+  padding-bottom: 800px;
   background-color: #F1F0F5;
   box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
 }
@@ -195,11 +195,11 @@ padding-bottom: -20px;
 //Css Table
 
 .table{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 350px;
-  margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 250px;
+    margin-left: 40px;
 }
 
 .content-table {
@@ -244,16 +244,22 @@ td,th{
     flex-direction: row;
   }
   .cadastro_novo{
-    margin-left: 410px;
+    margin-left: 390px;
     margin-top: 60px;
     text-transform: capitalize;
   }
-  
-
   .table{
     margin-bottom: 350px;
 }
 
 .sidebar {
   padding-bottom: 800px;
+}
+
+.table{
+  margin-bottom: 350px;
+}
+
+.sidebar {
+padding-bottom: 800px;
 }

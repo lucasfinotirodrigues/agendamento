@@ -217,3 +217,11 @@ ion-modal{
                             }
     }
     
+
+    .table{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 350px;
+        margin-left: 40px;
+    }

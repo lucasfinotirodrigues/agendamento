@@ -5,6 +5,7 @@ import { EspacosComponent } from './espacos/espacos.component';
 import { LoginComponent } from './login/login.component';
 import { PerfisNovoComponent } from './perfis-novo/perfis-novo.component';
 import { PerfisComponent } from './perfis/perfis.component';
+import { SolicitacoesConfirmadasComponent } from './solicitacoes-confirmadas/solicitacoes-confirmadas.component';
 import { SolicitacoesComponent } from './solicitacoes/solicitacoes.component';
 import { SolicitanteNovoComponent } from './solicitante-novo/solicitante-novo.component';
 import { SolicitantesComponent } from './solicitantes/solicitantes.component';
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: 'perfis', component: PerfisComponent},
   { path: 'perfis-novo', component: PerfisNovoComponent},
   { path: 'espacos', component: EspacosComponent  },
-  { path: 'espacos-novo', component: EspacosNovoComponent}
+  { path: 'espacos-novo', component: EspacosNovoComponent},
+  { path: 'solicitacoes-confirmadas', component: SolicitacoesConfirmadasComponent}
 ];
 
 @NgModule({
